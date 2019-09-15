@@ -5,9 +5,7 @@ const _ = require('lodash');
 
 class RomanNumberCalculator {
 
-    constructor() {
-
-    }
+    constructor() {}
 
     parseFile(fileName) {
         const content = fs.readFileSync(fileName, 'utf8');
@@ -19,6 +17,10 @@ class RomanNumberCalculator {
     }
 
     solve(firstNumber, secondNumber) {
+        // TODO: correct implementation comes here
+
+
+
         return firstNumber + secondNumber;
     }
 
