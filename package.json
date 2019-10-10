@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "jasmine --config=spec/jasmine.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
   }
 }
