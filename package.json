@@ -2,18 +2,20 @@
   "name": "coding-dojo-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node .",
-    "test": "jasmine --config=spec/jasmine.json"
+    "start": "tsc && node ./dist/index.js",
+    "test": "tsc && jasmine --config=spec/jasmine.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jasmine": "^3.4.3",
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.7.12",
     "chalk": "^2.4.2",
-    "lodash": "^4.17.15"
-  },
-  "devDependencies": {
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "lodash": "^4.17.15",
+    "typescript": "^3.6.4"
   }
 }

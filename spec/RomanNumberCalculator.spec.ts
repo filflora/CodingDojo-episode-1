@@ -1,10 +1,12 @@
+import * as fs from "fs";
+import { RomanNumberCalculator } from '../RomanNumberCalculator';
+
 describe("RomanNumberCalculator", function () {
-    const fs = require('fs');
-    const Calculator = require('../RomanNumberCalculator');
-    let calc;
+
+    let calc: RomanNumberCalculator;
 
     beforeEach(function () {
-        calc = new Calculator();
+        calc = new RomanNumberCalculator();
     });
 
     it("should be able to instantiate", function () {
