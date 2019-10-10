@@ -18,9 +18,7 @@ class RomanNumberCalculator {
     }
 
     solve(firstNumber, secondNumber) {
-        // TODO: correct implementation comes here
-
-
+        // TODO: implementation comes here
 
         return firstNumber + secondNumber;
     }
