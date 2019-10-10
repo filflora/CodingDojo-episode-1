@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from "fs";
 import { RomanNumberCalculator } from '../RomanNumberCalculator';
 
 describe("RomanNumberCalculator", function () {
