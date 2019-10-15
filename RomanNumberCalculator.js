@@ -12,7 +12,7 @@ class RomanNumberCalculator {
 
         return content
             .split(/\r?\n/)
-            .map(line => line.split(/\+/g))
+            .map(line => line.split(/\+|\-/g))
             .map(numbers => numbers.map(number => String(number).trim()))
             .filter(line => !_.isEmpty(line[0]))
     }
