@@ -11,7 +11,7 @@ export class RomanNumberCalculator {
 
         return content
             .split(/\r?\n/)
-            .map((line: string) => line.split(/\+/g))
+            .map((line: string) => line.split(/\+|\-/g))
             .map((numbers: string[]) => numbers.map(number => String(number).trim()))
             .filter((line: string[]) => !isEmpty(line[0]))
     }
